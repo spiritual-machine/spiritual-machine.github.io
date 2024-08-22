@@ -5,4 +5,5 @@ div[name=header] {
 
 body {
     background-image: url("img/bkgrnd.jpg");
+    opacity: 0.5
   }
