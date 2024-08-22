@@ -1,4 +1,4 @@
-div[name=header] {
+.header {
     text-align: center;
     border: 3px solid black;
     fill: white
