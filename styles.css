@@ -2,3 +2,7 @@ div[name=header] {
     text-align: center;
     border: 3px solid green
 }
+
+body {
+    background-image: url("img/bkgrnd.jpg");
+  }
