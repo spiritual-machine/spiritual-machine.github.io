@@ -1,10 +1,112 @@
-.header {
-    text-align: center;
-    border: 3px solid black;
-    fill: white
+/* This was copied and pasted from Google's Font page. */
+.ubuntu-mono-regular {
+    font-family: "Ubuntu Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .ubuntu-mono-bold {
+    font-family: "Ubuntu Mono", monospace;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .ubuntu-mono-regular-italic {
+    font-family: "Ubuntu Mono", monospace;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .ubuntu-mono-bold-italic {
+    font-family: "Ubuntu Mono", monospace;
+    font-weight: 700;
+    font-style: italic;
+  }
+/* Font block end. */
+
+.content {
+    align-self: center;
+    align-items: center;
 }
 
-body {
-    background-image: url("img/bkgrnd.jpg");
-    background-blend-mode: lighten
+/* LAB ASSIGNMENT REQUIREMENTS:
+    1. Create a <div> with the ID name "header". This division should contain introduction header text, e.g., "Hi! I'm Ankita".
+        Give the header a minimum height (e.g., 40px).
+        Center the text within the header division.
+        Change the font style and size to something that is different from the rest of the page.
+        Use CSS header to make your header text "small caps".
+*/
+#header {
+    font-family: 'ubuntu-mono-bold', monospace;
+    color: #24fc03;
+    text-align: center;
+    font-variant: small-caps;
+    min-height: 3em;
+    font-size: 1.5em;
+
   }
+
+#tuxpic {
+    display: block;
+    height: auto; 
+    width: auto; 
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 100px; 
+    max-height: 100px;
+}
+
+/* This is necessary for the aesthetic. Tried to emulate Bash ascii spinner */
+  .spinner {
+    font-family: 'ubuntu-mono-bold', monospace;
+    color: #24fc03;
+    font-size: 1em;
+    display: inline-block;
+    animation: spin 1s steps(2) infinite;
+    white-space: pre;
+  }
+  @keyframes spin {
+    0%   { transform: rotate(0deg) scaleX(1); }
+    50%  { transform: rotate(90deg) scaleX(1); }
+    100% { transform: rotate(180deg) scaleX(1); }
+  }
+/* Spinner block end. */
+
+  body {
+    background-image: url('img/bkgrnd.png')
+  }
+
+/* LAB ASSIGNMENT REQUIREMENTS:
+Create a <div> with the ID name "about". This division should contain a photo of yourself with a description of what you do.
+In your styles.css file, add code to style this section as follows:
+    Photo has a black border of 2px.
+    Change the description font and size to one of your choosing.
+    Include at least 3 hyperlinks to your GitHub repository and any other links you may want to share (e.g., Linked In).
+Select an "mail" icon from the Noun Project, available publicly here. Use a "mailto" to activate my default mail client and send an email to you.
+*/
+#about {
+    display: flex;
+    border-style: inset;
+    border-color: #24fc03;
+    font-family: 'ubuntu-mono-regular', monospace;
+    font-size: 1em;
+    color: #24fc03;
+    padding: 20px;
+    background-color: rgba(36, 252, 3, 0.4)
+
+}
+
+h2, h3, h4 {
+    font-family: 'ubuntu-mono-bold', monospace;
+    color: #24fc03;
+}
+
+#abouttext{
+    padding: 10px;
+    align-self: center;
+}
+
+
+.profilepic {
+    border: 2px solid black;
+}
