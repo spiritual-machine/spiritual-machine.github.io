@@ -38,28 +38,44 @@
 */
 #header {
     font-family: 'ubuntu-mono-bold', monospace;
-    color: #24fc03;
+    color: #8AE234;
     text-align: center;
     font-variant: small-caps;
     min-height: 3em;
     font-size: 1.5em;
+    margin-right: auto;
+    margin-left: auto;
 
   }
 
-#tuxpic {
+#modiconpic {
     display: block;
     height: auto; 
     width: auto; 
     margin-right: auto;
     margin-left: auto;
-    max-width: 100px; 
     max-height: 100px;
 }
+#smalliconpic {
+    display:block;
+    height: auto;
+    width: auto;
+    margin-right: auto;
+    margin-left: auto;
+    max-height: 50px;
+}
 
-/* This is necessary for the aesthetic. Tried to emulate Bash ascii spinner */
+#iconbox {
+    display: flex;
+    width: 500px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* You can skip grading these parts. */
   .spinner {
     font-family: 'ubuntu-mono-bold', monospace;
-    color: #24fc03;
+    color: #8AE234;
     font-size: 1em;
     display: inline-block;
     animation: spin 1s steps(2) infinite;
@@ -87,18 +103,21 @@ Select an "mail" icon from the Noun Project, available publicly here. Use a "mai
 #about {
     display: flex;
     border-style: inset;
-    border-color: #24fc03;
+    border-color: #8AE234;
     font-family: 'ubuntu-mono-regular', monospace;
     font-size: 1em;
-    color: #24fc03;
+    color: #ffffff;
     padding: 20px;
-    background-color: rgba(36, 252, 3, 0.4)
+    background-color: rgba(36, 252, 3, 0.4);
+    align-items: center;
+    margin-left: 45px;
+    margin-right: 45px;
 
 }
 
 h2, h3, h4 {
     font-family: 'ubuntu-mono-bold', monospace;
-    color: #24fc03;
+    color: #FCE94F;
 }
 
 #abouttext{
@@ -106,7 +125,37 @@ h2, h3, h4 {
     align-self: center;
 }
 
+#hyperlink-email {
+    border: inset;
+    background-color: rgb(151, 146, 146);
+    font-family: 'ubuntu-mono-bold', monospace;
+    color: black;
+    background-image: url('img/EMAIL_ICON.png');
+    background-repeat: no-repeat;
+    padding-left: 30px;
+    min-height: 25px;
+    max-width: 150px;
+    max-height: 25px;
+    min-width: 150px;
+}
+
+#hyperlink-linkedin {
+    border: inset;
+    background-color: rgb(151, 146, 146);
+    font-family: 'ubuntu-mono-bold', monospace;
+    color: black;
+    background-image: url('img/LI_ICON.png');
+    background-repeat: no-repeat;
+    padding-left: 30px;
+    margin-left: 10px;
+    min-height: 25px;
+    max-width: 250px;
+    max-height: 25px;
+    min-width: 250px;
+}
 
 .profilepic {
     border: 2px solid black;
+    width: 150px;
+    height: 150px;
 }
