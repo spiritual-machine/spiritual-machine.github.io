@@ -167,7 +167,7 @@ h2, h3, h4 {
 }
 
 #hyperlink-email {
-    border: inset;
+    border: outset;
     background-color: rgb(151, 146, 146);
     font-family: 'ubuntu-mono-bold', monospace;
     color: black;
@@ -181,7 +181,7 @@ h2, h3, h4 {
 }
 
 #hyperlink-linkedin {
-    border: inset;
+    border: outset;
     background-color: rgb(151, 146, 146);
     font-family: 'ubuntu-mono-bold', monospace;
     color: black;
