@@ -115,6 +115,47 @@ Select an "mail" icon from the Noun Project, available publicly here. Use a "mai
 
 }
 
+/* 3. */
+#work-samples {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    border-style: inset;
+    border-color: #8AE234;
+    font-family: 'ubuntu-mono-regular', monospace;
+    font-size: 1em;
+    color: #ffffff;
+    padding: 20px;
+    background-color: rgba(36, 252, 3, 0.4);
+    align-items: center;
+    margin-left: 45px;
+    margin-right: 45px;
+}
+
+/* 3.b. */
+#projectbox{
+    display: flex;
+    border-style: inset;
+    font-family: 'ubuntu-mono-regular', monospace;
+    font-size: 1em;
+    list-style-type: none;
+    color: black;
+    padding: 20px;
+    margin-top: 10px;
+    background-color: rgb(151, 146, 146);
+    align-items: center;
+
+}
+#projecttext{
+    padding: 10px;
+    align-self:center;
+    color: black;
+}
+
+#projectbox li{
+    list-style-type: none;
+}
+
 h2, h3, h4 {
     font-family: 'ubuntu-mono-bold', monospace;
     color: #FCE94F;
@@ -134,9 +175,9 @@ h2, h3, h4 {
     background-repeat: no-repeat;
     padding-left: 30px;
     min-height: 25px;
-    max-width: 150px;
+    max-width: 100px;
     max-height: 25px;
-    min-width: 150px;
+    min-width: 100px;
 }
 
 #hyperlink-linkedin {
@@ -149,9 +190,9 @@ h2, h3, h4 {
     padding-left: 30px;
     margin-left: 10px;
     min-height: 25px;
-    max-width: 250px;
+    max-width: 200px;
     max-height: 25px;
-    min-width: 250px;
+    min-width: 200px;
 }
 
 .profilepic {
