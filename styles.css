@@ -65,11 +65,17 @@
     max-height: 50px;
 }
 
-#iconbox {
+#iconbox-top {
     display: flex;
     width: 500px;
     margin-right: auto;
     margin-left: auto;
+}
+
+#iconbox-other {
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 /* You can skip grading these parts. */
@@ -102,6 +108,7 @@ Select an "mail" icon from the Noun Project, available publicly here. Use a "mai
 */
 #about {
     display: flex;
+    flex-direction: column;
     border-style: inset;
     border-color: #8AE234;
     font-family: 'ubuntu-mono-regular', monospace;
@@ -110,10 +117,35 @@ Select an "mail" icon from the Noun Project, available publicly here. Use a "mai
     padding: 20px;
     background-color: rgba(36, 252, 3, 0.4);
     align-items: center;
+    justify-items: center;
     margin-left: 45px;
     margin-right: 45px;
 
 }
+
+#about-pic-text{
+  display: flex;
+  flex-direction: row;
+  font-family: 'ubuntu-mono-regular', monospace;
+  font-size: 1em;
+  color: #ffffff;
+  padding: 20px;
+  align-items: center;
+  margin-left: 45px;
+  margin-right: 45px;
+}
+/* LAB ASSIGNMENT REQUIREMENTS:
+Create a <div> with the ID name "about". This division should contain a photo of yourself with a description of what you do.
+Create a <div> with the ID name "work-samples". This division should contain a "flexbox", "table", or "grid" layout consisting of three sub-elements. Each sub-element should contain a placeholder image and some descriptive text of your work.
+
+a. Your styles.css file should contain relevant styling for this section. At minimum:
+
+Change the font style and size.
+b. You must use either an ordered or unordered list element to lay out the description text for each work sample.
+
+Use CSS to remove the bullet symbols.
+Ensure that the text is vertically aligned with the image.
+*/
 
 /* 3. */
 #work-samples {
@@ -167,17 +199,18 @@ h2, h3, h4 {
 }
 
 #hyperlink-email {
-    border: outset;
-    background-color: rgb(151, 146, 146);
-    font-family: 'ubuntu-mono-bold', monospace;
-    color: black;
-    background-image: url('img/EMAIL_ICON.png');
-    background-repeat: no-repeat;
-    padding-left: 30px;
-    min-height: 25px;
-    max-width: 100px;
-    max-height: 25px;
-    min-width: 100px;
+  border: outset;
+  background-color: rgb(151, 146, 146);
+  font-family: 'ubuntu-mono-bold', monospace;
+  color: black;
+  background-image: url('img/EMAIL_ICON.png');
+  background-repeat: no-repeat;
+  padding-left: 30px;
+  margin-left: 10px;
+  min-height: 25px;
+  max-width: 200px;
+  max-height: 25px;
+  min-width: 200px;
 }
 
 #hyperlink-linkedin {
@@ -195,12 +228,33 @@ h2, h3, h4 {
     min-width: 200px;
 }
 
+#hyperlink-github {
+  border: outset;
+  background-color: rgb(151, 146, 146);
+  font-family: 'ubuntu-mono-bold', monospace;
+  color: black;
+  background-image: url('img/GH_ICON.png');
+  background-repeat: no-repeat;
+  padding-left: 30px;
+  margin-left: 10px;
+  min-height: 25px;
+  max-width: 200px;
+  max-height: 25px;
+  min-width: 200px;
+}
+
 .profilepic {
     border: 2px solid black;
     width: 150px;
     height: 150px;
 }
 
+
+/* LAB ASSIGNMENT REQUIREMENTS:
+Create a <div> with the ID name "footer". This division should contain a footer with your name, and the date this page was last updated.
+
+Use CSS to give the footer a solid background color.
+*/
 footer {
   display: flex;
   font-family: 'ubuntu-mono-bold', monospace;
