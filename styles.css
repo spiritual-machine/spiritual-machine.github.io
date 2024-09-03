@@ -54,7 +54,7 @@
     width: auto; 
     margin-right: auto;
     margin-left: auto;
-    max-height: 100px;
+    max-height: 10vh;
 }
 #smalliconpic {
     display:block;
@@ -62,12 +62,12 @@
     width: auto;
     margin-right: auto;
     margin-left: auto;
-    max-height: 50px;
+    max-height: 5vh;
 }
 
 #iconbox-top {
     display: flex;
-    width: 500px;
+    width: 25vw;
     margin-right: auto;
     margin-left: auto;
 }
@@ -114,7 +114,7 @@ Select an "mail" icon from the Noun Project, available publicly here. Use a "mai
     font-family: 'ubuntu-mono-regular', monospace;
     font-size: 1em;
     color: #ffffff;
-    padding: 20px;
+    padding: 2vh;
     background-color: rgba(36, 252, 3, 0.4);
     align-items: center;
     justify-items: center;
@@ -129,7 +129,7 @@ Select an "mail" icon from the Noun Project, available publicly here. Use a "mai
   font-family: 'ubuntu-mono-regular', monospace;
   font-size: 1em;
   color: #ffffff;
-  padding: 20px;
+  padding: 2vh;
   align-items: center;
   margin-left: 45px;
   margin-right: 45px;
@@ -157,7 +157,7 @@ Ensure that the text is vertically aligned with the image.
     font-family: 'ubuntu-mono-regular', monospace;
     font-size: 1em;
     color: #ffffff;
-    padding: 20px;
+    padding: 2vh;
     background-color: rgba(36, 252, 3, 0.4);
     align-items: center;
     margin-left: 45px;
@@ -172,14 +172,14 @@ Ensure that the text is vertically aligned with the image.
     font-size: 1em;
     list-style-type: none;
     color: black;
-    padding: 20px;
+    padding: 2vh;
     margin-top: 10px;
     background-color: rgb(151, 146, 146);
     align-items: center;
 
 }
 #projecttext{
-    padding: 10px;
+    padding: 1vh;
     align-self:center;
     color: black;
 }
@@ -194,7 +194,7 @@ h2, h3, h4 {
 }
 
 #abouttext{
-    padding: 10px;
+    padding: 1vh;
     align-self: center;
 }
 
@@ -205,12 +205,10 @@ h2, h3, h4 {
   color: black;
   background-image: url('img/EMAIL_ICON.png');
   background-repeat: no-repeat;
-  padding-left: 30px;
-  margin-left: 10px;
-  min-height: 25px;
-  max-width: 200px;
-  max-height: 25px;
-  min-width: 200px;
+  padding-left: 3vw;
+  margin-left: 1vw;
+  min-height: 1.5em;
+  max-width: 15vw;
 }
 
 #hyperlink-linkedin {
@@ -220,12 +218,10 @@ h2, h3, h4 {
     color: black;
     background-image: url('img/LI_ICON.png');
     background-repeat: no-repeat;
-    padding-left: 30px;
-    margin-left: 10px;
-    min-height: 25px;
-    max-width: 200px;
-    max-height: 25px;
-    min-width: 200px;
+    padding-left: 2vw;
+    margin-left: 1vw;
+    min-height: 1.5em;
+    max-width: 15vw;
 }
 
 #hyperlink-github {
@@ -235,12 +231,10 @@ h2, h3, h4 {
   color: black;
   background-image: url('img/GH_ICON.png');
   background-repeat: no-repeat;
-  padding-left: 30px;
-  margin-left: 10px;
-  min-height: 25px;
-  max-width: 200px;
-  max-height: 25px;
-  min-width: 200px;
+  padding-left: 2vw;
+  margin-left: 1vw;
+  min-height: 1.5em;
+  max-width: 15vw;
 }
 
 .profilepic {
