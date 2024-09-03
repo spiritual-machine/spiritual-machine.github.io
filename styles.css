@@ -188,17 +188,17 @@ h2, h3, h4 {
     background-image: url('img/LI_ICON.png');
     background-repeat: no-repeat;
     padding-left: 30px;
-    margin-left: 2vh;
-    min-height: 1.5em;
-    max-width: 12vw;
-    max-height: 1.5em;
-    min-width: 12vw;
+    margin-left: 10px;
+    min-height: 25px;
+    max-width: 200px;
+    max-height: 25px;
+    min-width: 200px;
 }
 
 .profilepic {
     border: 2px solid black;
-    width: 10vw;
-    height: 10vw;
+    width: 150px;
+    height: 150px;
 }
 
 footer {
@@ -207,13 +207,13 @@ footer {
   border: outset;
   background-color: rgb(151, 146, 146);
   justify-content: flex-end;
-  margin-top: 2vh;
+  margin-top: 20px;
 }
 
 #lastupdated{
   border:inset;
   background-color: rgb(151, 146, 146);
   font-family: 'ubuntu-mono-regular', monospace;
-  margin-left: 2vw;
-  margin-right: 2vw;
+  margin-left: 10px;
+  margin-right: 10px;
 }
