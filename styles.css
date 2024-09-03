@@ -54,7 +54,7 @@
     width: auto; 
     margin-right: auto;
     margin-left: auto;
-    max-height: 10vh;
+    max-height: 100px;
 }
 #smalliconpic {
     display:block;
@@ -62,12 +62,12 @@
     width: auto;
     margin-right: auto;
     margin-left: auto;
-    max-height: 5vh;
+    max-height: 50px;
 }
 
 #iconbox-top {
     display: flex;
-    width: 25vw;
+    width: 500px;
     margin-right: auto;
     margin-left: auto;
 }
@@ -114,7 +114,7 @@ Select an "mail" icon from the Noun Project, available publicly here. Use a "mai
     font-family: 'ubuntu-mono-regular', monospace;
     font-size: 1em;
     color: #ffffff;
-    padding: 2vh;
+    padding: 20px;
     background-color: rgba(36, 252, 3, 0.4);
     align-items: center;
     justify-items: center;
@@ -129,7 +129,7 @@ Select an "mail" icon from the Noun Project, available publicly here. Use a "mai
   font-family: 'ubuntu-mono-regular', monospace;
   font-size: 1em;
   color: #ffffff;
-  padding: 2vh;
+  padding: 20px;
   align-items: center;
   margin-left: 45px;
   margin-right: 45px;
@@ -157,7 +157,7 @@ Ensure that the text is vertically aligned with the image.
     font-family: 'ubuntu-mono-regular', monospace;
     font-size: 1em;
     color: #ffffff;
-    padding: 2vh;
+    padding: 20px;
     background-color: rgba(36, 252, 3, 0.4);
     align-items: center;
     margin-left: 45px;
@@ -172,14 +172,14 @@ Ensure that the text is vertically aligned with the image.
     font-size: 1em;
     list-style-type: none;
     color: black;
-    padding: 2vh;
+    padding: 20px;
     margin-top: 10px;
     background-color: rgb(151, 146, 146);
     align-items: center;
 
 }
 #projecttext{
-    padding: 1vh;
+    padding: 10px;
     align-self:center;
     color: black;
 }
@@ -194,7 +194,7 @@ h2, h3, h4 {
 }
 
 #abouttext{
-    padding: 1vh;
+    padding: 10px;
     align-self: center;
 }
 
@@ -205,10 +205,12 @@ h2, h3, h4 {
   color: black;
   background-image: url('img/EMAIL_ICON.png');
   background-repeat: no-repeat;
-  padding-left: 3vw;
-  margin-left: 1vw;
-  min-height: 1.5em;
-  max-width: 15vw;
+  padding-left: 30px;
+  margin-left: 5px;
+  margin-right: 5px;
+  min-height: 25px;
+  max-width: 200px;
+  max-height: 25px;
 }
 
 #hyperlink-linkedin {
@@ -218,10 +220,12 @@ h2, h3, h4 {
     color: black;
     background-image: url('img/LI_ICON.png');
     background-repeat: no-repeat;
-    padding-left: 2vw;
-    margin-left: 1vw;
-    min-height: 1.5em;
-    max-width: 15vw;
+    padding-left: 30px;
+    margin-left: 5px;
+    margin-right: 5px;
+    min-height: 25px;
+    max-width: 200px;
+    max-height: 25px;
 }
 
 #hyperlink-github {
@@ -231,10 +235,12 @@ h2, h3, h4 {
   color: black;
   background-image: url('img/GH_ICON.png');
   background-repeat: no-repeat;
-  padding-left: 2vw;
-  margin-left: 1vw;
-  min-height: 1.5em;
-  max-width: 15vw;
+  padding-left: 30px;
+  margin-left: 5px;
+  margin-right: 5px;
+  min-height: 25px;
+  max-width: 200px;
+  max-height: 25px;
 }
 
 .profilepic {
@@ -245,9 +251,16 @@ h2, h3, h4 {
 
 
 /* LAB ASSIGNMENT REQUIREMENTS:
-Create a <div> with the ID name "footer". This division should contain a footer with your name, and the date this page was last updated.
+Create a <div> with the ID name "about". This division should contain a photo of yourself with a description of what you do.
+Create a <div> with the ID name "work-samples". This division should contain a "flexbox", "table", or "grid" layout consisting of three sub-elements. Each sub-element should contain a placeholder image and some descriptive text of your work.
 
-Use CSS to give the footer a solid background color.
+a. Your styles.css file should contain relevant styling for this section. At minimum:
+
+Change the font style and size.
+b. You must use either an ordered or unordered list element to lay out the description text for each work sample.
+
+Use CSS to remove the bullet symbols.
+Ensure that the text is vertically aligned with the image.
 */
 footer {
   display: flex;
