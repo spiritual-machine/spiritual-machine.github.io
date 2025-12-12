@@ -271,29 +271,69 @@
             font-family: var(--font-tech);
             font-size: 0.8rem;
         }
+/* --- CONTACT SECTION STYLES (NEW) --- */
+.contact-section {
+    text-align: center;
+    margin-bottom: 80px;
+}
 
-        /* Mobile Responsive */
-        @media (max-width: 768px) {
-            .hero-content {
-                flex-direction: column; /* Stack them on mobile */
-                text-align: center;
-            }
-            
-            .profile-container {
-                margin-bottom: 30px; /* Add space below image when stacked */
-            }
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+}
 
-            .hero { 
-                height: auto; 
-                padding: 100px 0; 
-            }
-            .hero p {
-                border-left: none; /* Remove side border on mobile */
-                border-bottom: 3px solid var(--accent-color); /* Add bottom border instead */
-                padding-left: 0;
-                padding-bottom: 20px;
-            }
-            .glitch-text { font-size: 2.5rem; }
-            header { flex-direction: column; gap: 20px; }
-            nav a { margin: 0 10px; }
-        }
+.social-btn {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 2px solid var(--accent-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--accent-color);
+    font-size: 1.5rem;
+    text-decoration: none;
+    transition: 0.3s;
+    background: rgba(0,0,0,0.5);
+    box-shadow: 0 0 15px rgba(176, 38, 255, 0.2);
+}
+
+.social-btn:hover {
+    background: var(--accent-color);
+    color: #fff;
+    box-shadow: 0 0 30px var(--accent-glow);
+    transform: translateY(-5px);
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+    .hero-content {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .profile-container {
+        margin-bottom: 30px;
+    }
+
+    .hero { 
+        height: auto; 
+        padding: 100px 0; 
+    }
+    .hero p {
+        border-left: none;
+        border-bottom: 3px solid var(--accent-color);
+        padding-left: 0;
+        padding-bottom: 20px;
+    }
+    .glitch-text { font-size: 2.5rem; }
+    header { flex-direction: column; gap: 20px; }
+    nav a { margin: 0 10px; }
+    
+    /* Responsive Contact */
+    .social-links { gap: 15px; }
+    .social-btn { width: 50px; height: 50px; font-size: 1.2rem; }
+}
+
