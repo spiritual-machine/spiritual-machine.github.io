@@ -257,6 +257,7 @@
             display: inline-block;
             font-size: 0.75rem;
             padding: 5px 10px;
+            padding-bottom: 10px;
             background: rgba(176, 38, 255, 0.1);
             color: var(--accent-color);
             border-radius: 20px;
