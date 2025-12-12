@@ -1,1 +1,0 @@
-# spiritual-machine.github.io
