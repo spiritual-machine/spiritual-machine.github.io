@@ -263,48 +263,52 @@
             font-family: var(--font-tech);
         }
 
-        /* Footer */
-        footer {
-            text-align: center;
-            padding: 50px 0;
-            color: var(--text-secondary);
-            font-family: var(--font-tech);
-            font-size: 0.8rem;
-        }
-/* --- CONTACT SECTION STYLES (NEW) --- */
+/* --- CONTACT SECTION STYLES (UPDATED) --- */
 .contact-section {
     text-align: center;
-    margin-bottom: 80px;
+    margin-bottom: 100px;
+    padding: 20px;
 }
 
 .social-links {
     display: flex;
     justify-content: center;
-    gap: 30px;
-    margin-top: 30px;
+    flex-wrap: wrap; /* Allows wrapping on very small screens */
+    gap: 40px; /* Increased spacing */
+    margin-top: 40px;
 }
 
 .social-btn {
-    width: 60px;
-    height: 60px;
+    width: 80px; /* Larger buttons */
+    height: 80px;
     border-radius: 50%;
     border: 2px solid var(--accent-color);
     display: flex;
     justify-content: center;
     align-items: center;
-    color: var(--accent-color);
-    font-size: 1.5rem;
+    color: #fff; /* White icon by default */
+    font-size: 2rem; /* Larger icon size */
     text-decoration: none;
-    transition: 0.3s;
-    background: rgba(0,0,0,0.5);
-    box-shadow: 0 0 15px rgba(176, 38, 255, 0.2);
+    transition: all 0.3s ease;
+    background: rgba(10, 10, 10, 0.8);
+    box-shadow: 0 0 20px rgba(176, 38, 255, 0.2);
 }
 
 .social-btn:hover {
     background: var(--accent-color);
     color: #fff;
-    box-shadow: 0 0 30px var(--accent-glow);
-    transform: translateY(-5px);
+    box-shadow: 0 0 40px var(--accent-glow), 0 0 15px #fff; /* Bright purple + white glow */
+    transform: translateY(-8px);
+    border-color: #fff;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 50px 0;
+    color: var(--text-secondary);
+    font-family: var(--font-tech);
+    font-size: 0.8rem;
 }
 
 /* Mobile Responsive */
@@ -333,7 +337,6 @@
     nav a { margin: 0 10px; }
     
     /* Responsive Contact */
-    .social-links { gap: 15px; }
-    .social-btn { width: 50px; height: 50px; font-size: 1.2rem; }
+    .social-links { gap: 20px; }
+    .social-btn { width: 60px; height: 60px; font-size: 1.5rem; }
 }
-
